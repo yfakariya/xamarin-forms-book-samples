@@ -11,7 +11,7 @@ open Android.Widget
 
 [<Activity (Label = "Greetings.Droid", MainLauncher = true)>]
 type MainActivity () =
-    inherit Xamarin.Forms.Platform.Android.FormsApplicationActivity ()
+    inherit Xamarin.Forms.Platform.Android.FormsAppCompatActivity ()
 
     override this.OnCreate (bundle) =
         base.OnCreate (bundle)
